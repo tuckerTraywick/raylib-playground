@@ -16,7 +16,7 @@ int main(void) {
 		ClearBackground(RAYWHITE);
 		EndDrawing();
 	}
-
+	
 	CloseWindow();
 	return 0;
 }
