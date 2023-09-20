@@ -1,8 +1,8 @@
 #include <raylib.h>
 
 int main(void) {
-	const int screenWidth = 800;
-	const int screenHeight = 500;
+	const int screenWidth = 1000;
+	const int screenHeight = 800;
 	const char title[] = "Circle Demo";
 	const float circleRadius = 100;
 
