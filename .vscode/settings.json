@@ -1,0 +1,10 @@
+{
+	"makefile.makefilePath": "./Makefile",
+	"makefile.launchConfigurations": [
+		{
+			"cwd": "/home/tucker/Documents/code/raylib-playground/bin",
+			"binaryPath": "/home/tucker/Documents/code/raylib-playground/bin/run",
+			"binaryArgs": []
+		}
+	]
+}

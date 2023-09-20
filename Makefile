@@ -1,8 +1,9 @@
-OUTPUT_NAME := window
-LIBRARIES := -lraylib -lm
-SRC_DIR := ./src
+OUTPUT_NAME := run
+SRC_DIR := ./circle
 BUILD_DIR := ./build
 BIN_DIR := ./bin
+LIBRARIES := -lraylib -lm
+
 CFLAGS := -g -Wall -std=c17
 CC := gcc
 
@@ -20,7 +21,7 @@ $(OBJ_FILES): $(SRC_FILES)
 	$(CC) $(CFLAGS) $? $(LIBRARIES) -c -o $@
 
 .PHONY: run
-run: clean $(BIN_DIR)/$(OUTPUT_NAME)
+run: default
 	clear && $(MAKE) && $(BIN_DIR)/$(OUTPUT_NAME)
 
 .PHONY: clean
