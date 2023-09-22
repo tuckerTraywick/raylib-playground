@@ -6,6 +6,7 @@ LIBRARIES := -lraylib -lm
 
 CFLAGS := -g -Wall -std=c17
 CC := gcc
+#CC := x86_64-w64-mingw32-gcc
 
 SRC_FILES := $(shell find $(SRC_DIR) -name '*.c')
 OBJ_FILES := $(SRC_FILES:$(SRC_DIR)/%=$(BUILD_DIR)/%.o)
