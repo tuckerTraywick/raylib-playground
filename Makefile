@@ -1,5 +1,5 @@
 OUTPUT_NAME := run
-SRC_DIR := ./pong
+SRC_DIR := ./circle
 BUILD_DIR := ./build
 BIN_DIR := ./bin
 LIBRARIES := -lraylib -lm

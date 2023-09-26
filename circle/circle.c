@@ -12,7 +12,6 @@ int main(void) {
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
-		DrawText("This is a circle:", 50, screenHeight/2 - circleRadius*2, 80, RED);
 		DrawCircle(screenWidth/2, screenHeight/2, circleRadius, RED);
 		EndDrawing();
 	}
