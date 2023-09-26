@@ -63,7 +63,6 @@ void showWelcomeScreen() {
 }
 
 void update() {
-	bool ballWasHit = false;
 	bool mouseControls = true;
 
 	// Handle input.
